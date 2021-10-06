@@ -15,7 +15,7 @@ function Join() {
                     <input type="text" placeholder='Room' name='room' className="joinInput mt-20" onChange={e => setRoom(e.target.value)} />
                 </div>
                 <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-                    <button className='button mt-20' type="submit">Sing In</button>
+                    <button className='button mt-20' type="submit">Sign In</button>
                 </Link>
             </div>
         </div>
